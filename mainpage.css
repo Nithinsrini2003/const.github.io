@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+margin:0;
+background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)), url('https://img.freepik.com/premium-photo/future-building-construction-engineering-project_31965-6491.jpg?w=2000');
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+h1{
+font-family: Times new roman;
+float:left;
+color:#92A8D1;
+font-size:30px;
+position:-webkit-sticky;
+position:sticky;
+}
+
+h3{
+font-family: Times new roman;
+float:right;
+color:#92A8D1;
+font-size:30px;
+}
+
+table,th{
+}
+
+
+.header{
+padding:20px;
+}
+.image {
+width: 150px;
+height: 150px;
+border-radius: 25%;
+padding:10px;
+position:-webkit-sticky;
+position:sticky;
+}
+img {
+width: 75px;
+height: 75px;
+border-radius: 25%;
+padding:10px;
+position:-webkit-sticky;
+position:sticky;
+}
+
+.menu{
+width:35px;
+height:5px;
+background-color: white;
+margin:6px 0;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  float:right;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float:right;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {}
+
